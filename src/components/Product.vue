@@ -77,6 +77,27 @@ export default {
     width: 100%;
     filter: drop-shadow(0px 0px 12px rgba(0, 0, 0, 0.25));
 }
+
+.product-detail {
+    background-color: #FFF;
+    padding: 25px;
+    margin: 0px -25px -25px;
+}
+
+.product-detail h2 {
+ font-size: 24px;
+ font-weight: 700;
+ color: #676767;
+ margin-bottom: 15px;
+}
+
+.product-detail p {
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: #676767;
+}
+
 </style>
 
 
