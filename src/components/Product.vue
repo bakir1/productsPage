@@ -1,6 +1,6 @@
 <template>
     <div class="product">
-        <div class="product-inner">
+        <div :class="'product-inner ' + product.color">
             <div class="product-text-wrap">
                 <h2 class="bg-text">{{ product.bgtext }}</h2>
             </div>
@@ -36,6 +36,19 @@ export default {
     padding: 25px;
     box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
 }
+
+.product-inner.pink {
+    background-image: linear-gradient(to bottom right, #ad699f, #ffd4f1);
+}
+
+.product-inner.blue {
+    background-image: linear-gradient(to bottom right, #6c6afa, #46bcf3);
+}
+
+.product-inner.green {
+    background-image: linear-gradient(to bottom right, #28f39e, #c7eccf);
+}
+
 
 .product-image-wrap .image{
     width: 100%;

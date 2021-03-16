@@ -23,7 +23,7 @@ export default {
       products: [
         {
           title: 'Krema 1',
-          color: 'green',
+          color: 'pink',
           bgtext: 'Siberian',
           src: require('./assets/sb1.png')
         },
