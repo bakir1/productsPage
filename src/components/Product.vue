@@ -39,7 +39,7 @@ export default {
 
 .product-inner.pink {
     background-image: linear-gradient(to bottom right, #ad699f, #ffd4f1);
-}
+ }
 
 .product-inner.blue {
     background-image: linear-gradient(to bottom right, #6c6afa, #46bcf3);
@@ -49,9 +49,33 @@ export default {
     background-image: linear-gradient(to bottom right, #28f39e, #c7eccf);
 }
 
+.product-text-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.product-text-wrap h2 {
+    color: #313131;
+    font-size: 80px;
+    font-weight: 900;
+    opacity: 0.2;
+    transform-origin: center;
+}
+
+.product-image-wrap {
+    position: relative;
+    z-index: 1;
+    transform-origin: center;
+}
 
 .product-image-wrap .image{
     width: 100%;
+    filter: drop-shadow(0px 0px 12px rgba(0, 0, 0, 0.25));
 }
 </style>
 
